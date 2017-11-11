@@ -1,4 +1,4 @@
-# [Brawl Stars API](http://axaygadekar.com)
+# [Brawl Stars API](http://axaygadekar.com/brawlstartsapi)
 
 A [Brawl Stars](https://supercell.helpshift.com/a/brawl-stars/) API that provides information about the game.
 
@@ -19,9 +19,9 @@ Consume the API to get all the information you need from these routes.
 | [`/api/maps`][3] | `GET` | All Maps information |
 | `/api/maps/:slug` | `GET` | Single Map information |
 
-[1]: http://axaygadekar.com/brawlstartsapi/api/arenas
-[2]: http://axaygadekar.com/brawlstartsapi/api/cards
-[3]: http://axaygadekar.com/brawlstartsapi/api/chests
+[1]: http://axaygadekar.com/brawlstartsapi/api/brawlers
+[2]: http://axaygadekar.com/brawlstartsapi/api/modes
+[3]: http://axaygadekar.com/brawlstartsapi/api/maps
 
 ### Images
 
