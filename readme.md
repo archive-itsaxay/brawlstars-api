@@ -1,6 +1,6 @@
-# [Brawl Stars API](http://axaygadekar.com/brawlstartsapi)
+# Brawl Stars API
 
-A [Brawl Stars](https://supercell.helpshift.com/a/brawl-stars/) API that provides information about the game.
+A Brawl Stars API that provides information about the game.
 
 ## How to use?
 
@@ -8,34 +8,14 @@ Consume the API to get all the information you need from these routes.
 
 ### Endpoints
 
-[Base route](http://axaygadekar.com/brawlstartsapi).
-
 | Route | HTTP Verb | Description |
 |---|---|---|
-| [`/api/brawlers`][1] | `GET` | All Brawlers information |
+| `/api/brawlers` | `GET` | All Brawlers information |
 | `/api/brawlers/:slug` | `GET` | Single Brawler information |
-| [`/api/modes`][2] | `GET` | All Modes information |
+| `/api/modes` | `GET` | All Modes information |
 | `/api/modes/:slug` | `GET` | Single Mode information |
-| [`/api/maps`][3] | `GET` | All Maps information |
+| `/api/maps` | `GET` | All Maps information |
 | `/api/maps/:slug` | `GET` | Single Map information |
-
-[1]: http://axaygadekar.com/brawlstartsapi/api/brawlers
-[2]: http://axaygadekar.com/brawlstartsapi/api/modes
-[3]: http://axaygadekar.com/brawlstartsapi/api/maps
-
-### Images
-
-You can get the images too!
-
-| Route | Description |
-|---|---|
-| [`/img/brawlers/${slug}.png`][7] | Brawlers images |
-| [`/img/modes/${slug}.png`][8] | Modes images |
-| [`/img/maps/${slug}.png`][9] | Maps images |
-
-[7]: http://axaygadekar.com/img/brawlers/poco.png
-[8]: http://axaygadekar.com/img/modes/bounty.png
-[9]: http://axaygadekar.com/img/maps/safe_zone.png
 
 ## Want to help?
 
