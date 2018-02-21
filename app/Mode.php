@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Mode extends Model
 {
+
+    protected $timestamp = false;
+
     protected $fillable = [
         'name', 'slug', 'description', 'image'
     ];
