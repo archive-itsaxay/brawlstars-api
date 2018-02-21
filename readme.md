@@ -8,7 +8,7 @@ Consume the API to get all the information you need from these routes.
 
 ### Endpoints
 
-[Base route](http://brawlapi.axaygadekar.me).
+[Api Base route: http://brawlapi.axaygadekar.me](http://brawlapi.axaygadekar.me).
 
 | Route | HTTP Verb | Description |
 |---|---|---|
@@ -25,19 +25,21 @@ Consume the API to get all the information you need from these routes.
 
 ### Images
 
+[Images Base route: http://brawlimages.axaygadekar.me](http://brawlimages.axaygadekar.me).
+
 You can get the images too!
 
 | Route | Description |
 |---|---|
-| [`/images/brawlers/${slug}.png`][4] | Brawlers images |
-| [`/images/brawlers/thumb/${slug}.png`][5] | Brawlers thumb images |
-| [`/images/modes/${slug}.png`][6] | Modes images |
-| [`/images/maps/${slug}.png`][7] | Maps images |
+| [`/brawlers/images/${slug}.png`][4] | Brawlers images |
+| [`/brawlers/thumbs/${slug}.png`][5] | Brawlers thumb images |
+| [`/modes/${slug}.jpg`][6] | Modes images |
+| [`/maps/${slug}.png`][7] | Maps images |
 
-[4]: http://brawlapi.axaygadekar.me/images/brawlers/royal-arena.png
-[5]: http://brawlapi.axaygadekar.me/images/brawlers/thumb/arrows.png
-[6]: http://brawlapi.axaygadekar.me/images/modes/arrows.png
-[7]: http://brawlapi.axaygadekar.me/images/maps/arrows.png
+[4]: http://brawlimages.axaygadekar.me/brawlers/images/tara.png
+[5]: http://brawlimages.axaygadekar.me/brawlers/thumb/tara.png
+[6]: http://brawlimages.axaygadekar.me/modes/bounty.jpg
+[7]: http://brawlimages.axaygadekar.me/maps/death_valley.png
 
 ## Want to help?
 
