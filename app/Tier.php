@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Tier extends Model
 {
 
-    protected $timestamp = false;
+    public $timestamps = false;
 
     protected $fillable = [
         'name', 'description'
