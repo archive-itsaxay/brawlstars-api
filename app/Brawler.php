@@ -6,6 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Brawler extends Model
 {
+
+    protected $fillable = [
+        'name', 'slug', 'description', 'image', 'type_id', 'tier_id', 'speed', 'hitpoints', 'range_map', 'thumb_image'
+    ];
+
     // has one type
     public function type()
     {
