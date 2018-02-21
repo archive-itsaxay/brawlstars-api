@@ -6,6 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tier extends Model
 {
+
+    protected $fillable = [
+        'name', 'description'
+    ];
+
     // has many brawlers
     public function brawlers()
     {
