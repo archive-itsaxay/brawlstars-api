@@ -12,7 +12,7 @@ class TypeSeeder extends Seeder
      */
     public function run()
     {
-        new Tier(['name' => 'Ranged', 'description' => 'brawler type']);
-        new Tier(['name' => 'Melee', 'description' => 'brawler type']);
+        Tier::create(['name' => 'Ranged', 'description' => 'brawler type']);
+        Tier::create(['name' => 'Melee', 'description' => 'brawler type']);
     }
 }

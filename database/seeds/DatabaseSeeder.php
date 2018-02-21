@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(TypeSeeder::class);
-        $this->call(TairSeeder::class); //spelling correction
+        $this->call(TierSeeder::class);
         $this->call(BrawlerSeeder::class);
         $this->call(ModeSeeder::class);
         $this->call(MapSeeder::class);
