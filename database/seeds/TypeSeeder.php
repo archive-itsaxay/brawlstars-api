@@ -1,6 +1,6 @@
 <?php
 
-use App\Tier;
+use App\Type;
 use Illuminate\Database\Seeder;
 
 class TypeSeeder extends Seeder
@@ -12,7 +12,7 @@ class TypeSeeder extends Seeder
      */
     public function run()
     {
-        Tier::create(['name' => 'Ranged', 'description' => 'brawler type']);
-        Tier::create(['name' => 'Melee', 'description' => 'brawler type']);
+        Type::create(['name' => 'Ranged', 'description' => 'brawler type']);
+        Type::create(['name' => 'Melee', 'description' => 'brawler type']);
     }
 }

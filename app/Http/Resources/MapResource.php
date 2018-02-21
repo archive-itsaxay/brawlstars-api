@@ -17,7 +17,8 @@ class MapResource extends Resource
         return [
             'name' => $this->name,
             'description' => $this->description,
-            'map' => $this->mode->name
+            'mode' => ['name' => $this->mode->name, 'link' => route('modes.show', $this->mode->slug)],
+            'link' => route('maps.show', $this->slug)
         ];
     }
 }

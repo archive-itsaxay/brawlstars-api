@@ -21,6 +21,9 @@ class BrawlerResource extends Resource
             'tier' => $this->tier->name,
             'speed' => $this->speed . ' tiles per second',
             'hitpoints' => $this->hitpoints,
+            'image' => $this->image,
+            'thumb_image' => $this->thumb_image,
+            'link' => route('brawlers.show', $this->slug)
         ];
     }
 }

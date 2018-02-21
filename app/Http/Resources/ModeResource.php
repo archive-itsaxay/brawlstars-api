@@ -17,6 +17,7 @@ class ModeResource extends Resource
         return [
             'name' => $this->name,
             'description' => $this->description,
+            'link' => route('modes.show', $this->slug)
         ];
     }
 }
