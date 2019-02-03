@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Strength extends Model
 {
+
     // belong to brawler
     public function brawler()
     {
