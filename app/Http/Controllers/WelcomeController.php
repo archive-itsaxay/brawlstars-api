@@ -16,7 +16,7 @@ class WelcomeController extends Controller
                 'maps' => route('maps.index'),
             ],
             'version' => '1.0.0',
-            'lastUpdate' => '22 Feb, 2018'
+            'lastUpdate' => '04 Feb, 2019'
         ];
 
         return Response::json($response);
