@@ -14,7 +14,7 @@ Consume the API to get all the information you need from these routes.
 |---|---|---|
 | [`/api/brawlers`][1] | `GET` | All Brawlers information |
 | `/api/brawlers/:slug` | `GET` | Single Brawler information |
-| [`/api/modes`][2] | `GET`] | All Modes information |
+| [`/api/modes`][2] | `GET` | All Modes information |
 | `/api/modes/:slug` | `GET` | Single Mode information |
 | [`/api/maps`][3] | `GET` | All Maps information |
 | `/api/maps/:slug` | `GET` | Single Map information |
