@@ -1,3 +1,6 @@
+# Checkout Official API
+[BrawlStars Official API](https://developer.brawlstars.com/#/)
+
 # Brawl Stars API
 
 A Brawl Stars API that provides information about the game.
