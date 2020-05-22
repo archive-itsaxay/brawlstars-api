@@ -1,5 +1,5 @@
-# Checkout Official API
-[BrawlStars Official API](https://developer.brawlstars.com/#/)
+# Checkout Laravel Package For BrawlStars API
+[Laravel Brawlstars](https://github.com/itsaxay/laravel-brawlstars)
 
 # Brawl Stars API
 
